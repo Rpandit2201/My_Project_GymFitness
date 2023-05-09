@@ -1,0 +1,23 @@
+.row{
+    color: white;
+}
+h1{
+    color: black;
+}
+.container button{
+    width: 100%;
+   background-color:skyblue;
+   
+}
+.container button:hover{
+    background: linear-gradient(90deg, rgba(50,19,34,1) 0%, rgba(46,11,64,1) 100%, rgba(68,59,178,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+
+}
+.container a{
+    color: white;
+}
+
+
+
+ 

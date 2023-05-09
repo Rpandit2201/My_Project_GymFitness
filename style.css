@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background:white;
+    color:black;
+}
+.logo{
+    color:black;
+    font-family: 'Dancing Script', cursive;
+}
+.logo:hover{
+    color:black;
+   
+}
+span{
+    color:RED;
+    cursor:pointer;
+}
+.nav-link{
+    color:skyblue;
+    text-transform: uppercase;
+    font-family: hover;
+
+}
+.nav-link:hover{
+    color:red;
+}
+.d-flex{
+    font-family:none;
+    color:#f5634b;
+}
+/*------------------main section--------------*/
+.main{
+    padding-left:none;
+    background:url("./Images/GYM\ room.jpg");
+    background-size: cover;
+    height: 110vh;
+}
+.main h1{ /*page up-down*/
+    font-size: 6rem;
+    font-weight: 800;
+
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    color:white;
+    outline: none;
+    border: none;
+    background:linear-gradient(90deg,#f5634b 0%,#fe9418 100%);
+    transition:1s;
+}
+.btn1:hover{
+    background:linear-gradient(90deg,#fe9418 0%,#f5634b 100%);
+    transition: all 1s;
+}
+.section-2 h2{
+    background-color:skyblue;
+    font-weight: 800;
+
+}
+.section-2 p{
+    font-weight: lighter;
+}
+p{
+    font-size: 1.2rem;
+}
+/*-------------section 3------------------------*/
+.section-3{
+    margin-top: none;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    width: 100%;
+}
+/*---------------------SERVICE------------------------------*/
+.services h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.services h5{
+    font-weight: 700;     
+}
+.fas{
+    font-size: 2.5rem;
+}
+.back:hover .fas{
+    color:white;
+}
+/*------------------------------Course-------------------------------------------*/
+.course h1{
+    font-weight: 800;
+    font-size:2.8rem;
+}
+.course .card{
+    border:none;
+}
+.btn2{
+    height: 50px;
+    width: 80%;
+    color:white;
+    outline: none;
+    border: none;
+    background:linear-gradient(90deg,#f5634b 0%,#fe9418 100%);
+    transition:1s;
+}
+.btn2:hover{
+    background:linear-gradient(90deg,#fe9418 0%,#f5634b 100%);
+    transition: all 1s;
+}
+.footer{
+    background: rgb(23, 8, 44);
+    color: white;
+}
+.footer h4,h5{
+    font-weight: 900;
+}
+.footer p{
+    margin: 0;
+    color: teal;
+}
+.link{
+    cursor: pointer;
+    transition: all 0,5s;
+}
+.link:hover{
+    color: rgb(236, 83,83);
+    padding: left 5px;
+    transition: all 0.5s;
+}
+.fa-angle-double-right{
+    font-size: 18px;
+    color: teal;
+}
+.social{
+    color:white;
+    font-size: 24px;
+    transition: all 2.4s;
+}
+.social:hover{
+    color:red;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer .card{
+    background: black;
+    border-radius:0%;
+}
+.btn3{
+    cursor: pointer;
+}
+
+/*--------------------scrol up down-------------------------------------*/
+.details{
+    margin-top: none;
+}
+.details h5{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;    
+}
+.details a{
+    text-decoration: none;
+    color: rgb(286, 83,83);
+}
+.back:hover{
+    color: white;
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background:linear-gradient(90deg,#fe9418 0%,#f5634b 100%);
+    z-index: -1;
+    transition: all 0.8s;
+}
+.back:hover::before{
+    height: 100%;
+
+}
+p{
+    font-weight:lighter;
+}
+
+
